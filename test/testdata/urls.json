@@ -1,0 +1,5 @@
+{
+    "produrl" : "https://prod.api.neoride.com/api/api-daily/v1/login", 
+    "stgurl" : "https://stg.api.neoride.com/api/api-daily/v1/login", 
+    "getValues": "https://prod.api.neoride.com/api/api-daily/v1/top-up/payment-intent-error?limit=50&page=0"
+}

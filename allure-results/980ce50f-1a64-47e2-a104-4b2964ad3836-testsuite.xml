@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1687137488449' stop='1687137490019'>
+    <name>Test Scenario: API Get for all the declined users from Vado</name>
+    <title>Test Scenario: API Get for all the declined users from Vado</title>
+    <test-cases>
+        <test-case start='1687137488449' status='passed' stop='1687137489437'>
+            <name>Test Case: Should not login into the application and give 500</name>
+            <title>Test Case: Should not login into the application and give 500</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-114.0.5735.133'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1687137489439' status='passed' stop='1687137490018'>
+            <name>Test Case2: Should login into the application</name>
+            <title>Test Case2: Should login into the application</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-114.0.5735.133'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
